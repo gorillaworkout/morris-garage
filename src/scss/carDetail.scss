@@ -1,0 +1,641 @@
+.box-car-detail{
+    width:100%;
+    height:100%;
+    // border:1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212529;
+
+    .box-header{
+        width:100%;
+        height:100px;
+        position: sticky;
+        top:0px;
+        z-index: 10;
+    }
+    .box-detail-video{
+        width:100%;
+        height:90vh;
+        display: flex;
+        flex-direction: column;
+        .youtube-detail{
+            width:100%;
+            height:100%;
+        }
+    }
+    .slider-card{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        // border:1px solid red;
+        padding-left:4rem;
+        padding-right:4rem;
+        padding-top:2rem;
+        padding-bottom:2rem;
+        .option-car{
+            width:100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            p:nth-child(1){
+                font-size:30px;
+                color:white;
+                font-weight:700;
+            }
+            .nav-tabs{
+                border-bottom:none;
+                .nav-item{
+                    .nav-link{
+                        border-radius:20px;
+                        width:120px;
+                        color:white !important;
+                        border:none !important;
+                        &:hover{
+                            border:none;
+                        }
+                    }
+                    &:hover{
+                        border:none;
+                    }
+                }
+                .active {
+                    border-radius:20px;
+                    width:120px;
+                    background-color: red;
+                    color:white;
+                    border:1px solid red;
+
+                }
+            }
+        }
+        .tab-content{
+            .tab-pane{
+                .box-tab-content{
+                    width:100%;
+                    height:100%;
+                    // background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .car-detail-content{
+                        width:100%;
+                        // height:400px;
+                        margin-bottom:30px;
+                        
+                    }
+                    .car-detail-content-2{
+                        width:100%;
+                        height:450px;
+                        margin-bottom:30px;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                        
+                    }
+                    p:nth-child(2){
+                        color:white;
+                        font-size:30px;
+                        font-weight:700;
+                        width:85%;
+                        position: relative;
+                        // top:50px;
+                    }
+                    p:nth-child(3){
+                        color:white;
+                        font-size:20px;
+                        font-weight:700;
+                        position: relative;
+                        // top:50px;
+                    }
+                    .brochure-card{
+                        width:100%;
+                        height:100px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        position: relative;
+                        margin-bottom:30px;
+                        // top:50px;
+                        .brochure-item{
+                            width:30%;
+                            height:60%;
+                            background-color: #cb1f20;
+                            border-radius:35px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transition: 0.5s;
+                            &:hover{
+                                cursor: pointer;
+                                a{
+                                    text-decoration: underline;
+                                }
+                            }
+                            a{
+                                text-decoration: none;
+                                color:white;
+                                font-size:20px;
+                                font-weight:700;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                    .card-exterior-detail{
+                        width:100%;
+                        height:auto;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        p:nth-child(1){
+                            font-size:30px;
+                            color:white;
+                            font-weight:700;
+                            margin-bottom:20px;
+                        }
+                        p:nth-child(2){
+                            font-size:16px;
+                            color:white;
+                            font-weight:700;
+                            text-align: left;
+                            margin-bottom:20px;
+                        }
+                        .card-performance{
+                            width:100%;
+                            height:500px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            // margin-top:30px;
+                            img{
+                                width:50%;
+                                height:85%;
+                            }
+                            .performance-detail{
+                                width:50%;
+                                height:100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                justify-content: center;
+                                padding:20px;
+                                p:nth-child(1){
+                                    font-size:30px;
+                                    color:white;
+                                    font-weight:700;
+                                    text-align: left;
+                                }
+                                p:nth-child(2){
+                                    font-size:25px;
+                                    color:white;
+                                    font-weight:700;
+                                    text-align: left;
+                                }
+                                .small-card-performance{
+                                    width:100%;
+                                    height:30%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                    
+                                    .item-card-small{
+                                        width:30%;
+                                        height:100%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: flex-start;
+                                        justify-content: center;
+                                        p:nth-child(1){
+                                            font-size:25px;
+                                            width:100%;
+                                            margin:0px;
+                                            font-weight:700;
+                                        }
+                                        p:nth-child(2){
+                                            font-size:16px;
+                                            width:100%;
+                                            margin:0px;
+                                            font-weight:500;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                    .price-card{
+                        width:100%;
+                        height:200px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        .detail-price-card{
+                            display: flex;
+                            flex-direction: column;
+                            width:30%;
+                            height:100%;
+                            align-items: center;
+                            justify-content: center;
+                            p:nth-child(1){
+                                font-size:25px;
+                                color:white;
+                                width:100%;
+                                font-weight:700;
+                                text-align: left;
+                            }
+                            p:nth-child(2){
+                                font-size:18px;
+                                color:white;
+                                width:100%;
+                                font-weight:500;
+                                text-align: left;
+                            }
+                            p:nth-child(3){
+                                font-size:30px;
+                                color:white;
+                                width:100%;
+                                font-weight:700;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+                .box-design-content{
+                    width:100%;
+                    height:100%;
+                    // background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .car-detail-content{
+                        width:100%;
+                        height:450px;
+                        margin-bottom:30px;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                    .exterior-colour-box{
+                        width:100%;
+                        height:100px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom:50px;
+                        .detail-exterior-colour{
+                            width:50%;
+                            height:100%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: center;
+                            p:nth-child(1){
+                                color:white;
+                                font-size:30px;
+                                font-weight:700;
+                                text-align: left;
+                            }
+                            p:nth-child(2){
+                                color:white;
+                                font-size:20px;
+                                font-weight:700;
+                                text-align: left;
+                                width:80%;
+                            }
+                        }
+                        .box-color-option{
+                            width: 50%;
+                            height:100%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-between;
+                            .card-color{
+                                width:20%;
+                                height:100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-evenly;
+                                &:hover{
+                                    cursor: pointer;
+                                }
+                                .item-color{
+                                    width: 30%;
+                                    height:35%;
+                                    border-radius:50%;
+                                }
+                                #yellow{
+                                    background-color: yellow;
+                                }
+                                #metal{
+                                    background-color: #121214;
+                                }
+                                #silver{
+                                    background-color: #96938f;
+                                }
+                                #black{
+                                    background-color: black;
+                                }
+                                #arctic{
+                                    background-color: white;
+                                }
+                                #red{
+                                    background-color: red;
+                                }
+                                
+                                p{
+                                    color:white;
+                                    font-weight:700;
+                                }
+                            }
+                            .active {
+                                .item-color{
+                                    border:2px solid red;
+                                }
+                                p{
+                                    color:red;
+                                }
+                            }
+                        }
+                    }
+                    .box-exterior-design{
+                        width:100%;
+                        height:700px;
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom:30px;
+                        p{
+                            font-size:30px;
+                            color:white;
+                            font-weight:700;
+
+                        }
+                        .card-design-ext{
+                            width:100%;
+                            height:90%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            .card-item-small-ext{
+                                width:50%;
+                                height:50%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                p{
+                                    font-size:20px;
+                                    position: relative;
+                                    top:10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .box-performance-content{
+                    width:100%;
+                    height:100%;
+                    // background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .car-detail-content{
+                        width:100%;
+                        height:450px;
+                        margin-bottom:30px;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                    .small-card-performance{
+                        width:100%;
+                        height:30%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        
+                        .item-card-small{
+                            width:30%;
+                            height:100%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: center;
+                            p:nth-child(1){
+                                font-size:25px;
+                                width:100%;
+                                margin:0px;
+                                font-weight:700;
+                                color:white;
+                            }
+                            p:nth-child(2){
+                                font-size:16px;
+                                width:100%;
+                                margin:0px;
+                                font-weight:500;
+                                color:white;
+                            }
+                        }
+                    }
+                    .card-exterior-detail{
+                        width:100%;
+                        height:auto;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        
+                        p:nth-child(1){
+                            font-size:30px;
+                            color:white;
+                            font-weight:700;
+                            margin-bottom:20px;
+                        }
+                        p:nth-child(2){
+                            font-size:16px;
+                            color:white;
+                            font-weight:700;
+                            text-align: left;
+                            margin-bottom:20px;
+                        }
+                        .card-performance{
+                            width:100%;
+                            height:500px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            // margin-top:30px;
+                            img{
+                                width:50%;
+                                height:85%;
+                            }
+                            .performance-detail{
+                                width:50%;
+                                height:100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                justify-content: center;
+                                padding:20px;
+                                p:nth-child(1){
+                                    font-size:30px;
+                                    color:white;
+                                    font-weight:700;
+                                    text-align: left;
+                                }
+                                p:nth-child(2){
+                                    font-size:25px;
+                                    color:white;
+                                    font-weight:700;
+                                    text-align: left;
+                                }
+                                p:nth-child(1){
+                                    font-size:30px;
+                                    width:100%;
+                                    margin:0px;
+                                    font-weight:700;
+                                }
+                                p:nth-child(2){
+                                    font-size:18px;
+                                    width:100%;
+                                    margin:0px;
+                                    font-weight:500;
+                                }
+                                
+                            }
+                            
+                        }
+                    }
+                }
+                .box-specification-content{
+                    width:100%;
+                    height:100%;
+                    // background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .slider-box{
+                        max-width: 1440px;
+                        width:90%;
+                        height:90%;
+                        // border:1px solid red;
+                        // border-radius:10px;
+                        // margin-top:20px;
+                        // background-color: red;
+                        align-items: center;
+                        .carousel{
+                            height:100%;
+                            .carousel-inner{
+                                height:100%;
+                                // background-color: red;
+                                .carousel-item{
+                                    height:100%;
+                                    width:100%;
+                                    img{
+                                        width:100%;
+                                        height:100%;
+                                        // border-radius:8px;
+                                    }
+                                }
+                            }
+                        }
+                        .carousel-control-prev-icon,
+                        .carousel-control-next-icon {
+                        height: 100px;
+                        width: 100px;
+                        outline: black;
+                        background-size: 100%, 100%;
+                        border-radius: 50%;
+                        // border: 1px solid black;
+                        background-image: none;
+                        }
+    
+                        .carousel-control-next-icon:after
+                        {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        content: '>';
+                        font-size: 45px;
+                        color: red;
+                        }
+    
+                        .carousel-control-prev-icon:after {
+                        content: '<';
+                        font-size: 45px;
+                        color: red;
+                        }
+                        
+                    }
+
+                }
+            }
+        }
+        
+
+    }
+}
+
+
+.modal {
+    border:none;
+    .modal-dialog{
+        max-width:100%;
+        border:none;
+        .modal-content-download{
+            width:100%;
+            height:300px;
+            // height:100%;
+            // height:500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            overflow: scroll;
+            background-color: #f8f9fa;
+            // padding:10px;
+         
+            .modal-body{
+                width:55%;
+                // border:1px solid red;
+                // margin-top:20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height:90%;
+                
+                img{
+                    width:35%;
+                    height:55%;
+                    margin:10px;
+                    transition: 0.5s;
+                    &:hover{
+                        cursor: pointer;
+                        width:40%;
+                        height:60%;
+                    }
+                }
+            }
+        }
+        // width:80% !important;
+    }
+}

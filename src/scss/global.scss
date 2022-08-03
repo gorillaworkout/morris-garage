@@ -1,0 +1,183 @@
+
+@media only screen and (max-width:1200px){
+    .top-header-box{
+        padding-left:3rem;
+        padding-right:3rem;
+        .box-modal-option-header{
+            display: none !important;
+            background-color: red;
+        }
+        .icon_bar{
+            display: flex !important;
+            font-size:30px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .box-carousel-home{
+
+        .box-car-model{
+
+            .body-slider-car-model{
+
+                .box-img-option{
+                    justify-content: space-between;
+                
+                }
+            }
+        }
+    }
+}  
+
+@media only screen and (max-width:601px){
+    .box-carousel-home{
+
+        .box-car-model{
+
+            .body-slider-car-model{
+
+                .box-img-option{
+                    justify-content: space-between !important;
+                    .small-card-option-car{
+                        width:30% !important;
+                    }
+                }
+            }
+        }
+        .box-innovation-car{
+            .title-card{
+                p:nth-child(2){
+                    width:100% !important;
+                }
+            }
+        }
+        .box-innovation{
+            .card-innovation-1{
+                width:45% !important;
+            }
+            .card-innovation-2{
+                width:45% !important;
+            }
+            .card-innovation-3{
+                width:45% !important;
+            }
+            .card-innovation-4{
+                width:45% !important;
+            }
+        }
+    }
+    .top-footer-box{
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .box-carousel-home{
+
+        .box-car-model{
+            padding:0px !important;
+            .body-slider-car-model{
+
+                .box-img-option{
+                    justify-content: space-between !important;
+                    .small-card-option-car{
+                        width:30% !important;
+                    }
+                }
+                
+            }
+            .header-car-model{
+                margin-bottom:30px !important;
+                .header-left{
+                    width:70% !important;
+                    p:nth-child(3){
+                        font-size:10px !important;
+                    }
+                }
+                .header-right{
+                    width:30% !important;
+                    .button-seemore{
+                        width:100% !important;
+                        height:50px !important;
+                    }
+                }
+            }
+        }
+        .box-innovation-car{
+            padding:0px !important;
+            .title-card{
+                p:nth-child(2){
+                    width:100% !important;
+                }
+            }
+            .box-innovation{
+                .card-innovation-1{
+                    padding:10px !important;
+                    height:150px !important;
+                    width:45% !important;
+                    // justify-content: center !important;
+                    // align-items: center !important;
+                    p{
+                        font-size:20px !important;
+                    }
+                }
+                .card-innovation-2{
+                    padding:10px !important;
+                    height:150px !important;
+                    width:45% !important;
+                    // justify-content: center !important;
+                    // align-items: center !important;
+                    p{
+                        font-size:20px !important;
+                    }
+                }
+                .card-innovation-3{
+                    padding:10px !important;
+                    height:150px !important;
+                    width:45% !important;
+                    // justify-content: center !important;
+                    // align-items: center !important;
+                    p{
+                        font-size:20px !important;
+                    }
+                }
+                .card-innovation-4{
+                    padding:10px !important;
+                    height:150px !important;
+                    width:45% !important;
+                    // justify-content: center !important;
+                    // align-items: center !important;
+                    p{
+                        font-size:20px !important;
+                    }
+                }
+            }
+        }
+        .top-footer-box{
+            padding:0px !important;
+            justify-content: space-between;
+            .card-icon-soc{
+                // min-width:50px;
+                .fa-facebook-f{
+                    font-size:20px !important;
+                }
+                .fa-whatsapp {
+                    font-size:20px !important;
+                }
+                .fa-youtube {
+                    font-size:20px !important;
+                }
+                .fa-instagram {
+                    font-size:20px !important;
+                }
+                .fa-at {
+                    font-size:20px !important;
+                }
+            }
+        }
+     
+      
+    }
+}
