@@ -6,8 +6,10 @@
                 <p @click="jalan">MG Models</p>
                 <a href="/profile">Contact ME</a>
             </div>
+            <div class="icon-card" @click="open_modals_mobile('tsting')">
+                <i class="fa-solid fa-bars icon_bar" ></i>
+            </div>
             
-            <i class="fa-solid fa-bars icon_bar"></i>
         </div>
 </template>
 
@@ -25,6 +27,10 @@ export default {
         const jalan=()=>{
             emit('modalsMenu',{status:true})
         }
+        const open_modals_mobile=()=>{
+            emit('modalsMenuMobile',{statues:true})
+            
+        }
 
         const go_to_home=()=>{
             location.href = "/"
@@ -32,7 +38,8 @@ export default {
       
       return {
         jalan,
-        go_to_home
+        go_to_home,
+        open_modals_mobile
       }
     },
 }

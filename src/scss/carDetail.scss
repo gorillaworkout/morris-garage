@@ -40,6 +40,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+            flex-wrap: wrap;
             p:nth-child(1){
                 font-size:30px;
                 color:white;
@@ -84,6 +85,10 @@
                         width:100%;
                         // height:400px;
                         margin-bottom:30px;
+                        img{
+                            width: 100%;
+                            height:100%;
+                        }
                         
                     }
                     .car-detail-content-2{
@@ -131,6 +136,7 @@
                             justify-content: center;
                             align-items: center;
                             transition: 0.5s;
+                            flex-wrap: wrap;
                             &:hover{
                                 cursor: pointer;
                                 a{
@@ -172,6 +178,7 @@
                             flex-direction: row;
                             justify-content: space-between;
                             align-items: center;
+                            flex-wrap: wrap;
                             // margin-top:30px;
                             img{
                                 width:50%;
@@ -179,7 +186,7 @@
                             }
                             .performance-detail{
                                 width:50%;
-                                height:100%;
+                                // height:100%;
                                 display: flex;
                                 flex-direction: column;
                                 align-items: flex-start;
@@ -294,6 +301,7 @@
                         align-items: center;
                         justify-content: space-between;
                         margin-bottom:50px;
+                        flex-wrap: wrap;
                         .detail-exterior-colour{
                             width:50%;
                             height:100%;
@@ -377,6 +385,7 @@
                         display: flex;
                         flex-direction: column;
                         margin-bottom:30px;
+                        
                         p{
                             font-size:30px;
                             color:white;
@@ -397,6 +406,9 @@
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
+                                img{
+                                    width:100%;
+                                }
                                 p{
                                     font-size:20px;
                                     position: relative;
@@ -635,6 +647,53 @@
                     }
                 }
             }
+        }
+        .modal-content-mobile{
+            width:100%;
+            height:100%;
+            padding-top:30px;
+            .modal-body{
+                width:100%;
+                height:100%;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                // justify-content: center;
+                padding:10px;
+                .top-header-mobile{
+                    width:100%;
+                    height:50px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    p{
+                        font-size:20px;
+                        font-weight:700;
+                        color:black;
+                    }
+                    .fa-xmark{
+                        font-size:30px;
+                    }
+                }
+                .body-mobile-card{
+                    width:100%;
+                    height:80%;
+                    // border:1px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding:10px;
+                    a{
+                        color:black;
+                        text-decoration: none;
+                        position: relative;
+                        left:10px;
+                        margin-bottom:5px;
+                    }
+                }
+            }
+            
         }
         // width:80% !important;
     }

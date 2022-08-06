@@ -28,9 +28,7 @@ height:100px;
         // padding-right:10px;
         background-color: #f8f9fa;
         // background-color: transparent;
-        .icon_bar{
-            display: none;
-        }
+       
         img{
             width:70px;
             height:70px;
@@ -76,6 +74,9 @@ height:100px;
                     color:#535353;
                 }
             }
+        }
+        .icon-card{
+            display: none;
         }
         
     }

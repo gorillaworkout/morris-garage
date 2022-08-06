@@ -1,6 +1,6 @@
 <template>    
         <div class="box-home-container">
-                  <!-- MODALS START MENU MG -->
+            <!-- MODALS START MENU MG -->
             <div class="modal  modal-downlad-invoice fade" id="modalDownloadInvoice" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" @click.self="closeModal()" >
                 <div class="modal-dialog modal-dialog-centered .modal-lg">
                     <div class="modal-content modal-content-download">
@@ -14,18 +14,33 @@
                 </div>
             </div> 
             <div class="modal-backdrop fade show" id="backdrop"  style="display: none;" ></div>
-        <!-- MODALS START MENU MG -->
+            <!-- MODALS START MENU MG -->
+
+             <!-- MODALS MOBILE START -->
+            <div class="modal  modal-downlad-invoice fade" id="modalsMobile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" @click.self="closeModalMobile()" >
+                <div class="modal-dialog modal-dialog-centered .modal-lg">
+                    <div class="modal-content modal-content-download">
+                        
+                        <div class="modal-body">
+                            <img src="../assets/small_car_1.png" alt="" @click="go_to_page('gt')">
+                            <img src="../assets/small_car_2.png" alt="" @click="go_to_page('zs')">
+                            <img src="../assets/small_car_3.png" alt="" @click="go_to_page('hs')">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="modal-backdrop fade show" id="backdrop"  style="display: none;" ></div>
+            <!-- MODALS MOBILE END -->
             <topHeader
             @modalsMenu="modalsMenuMg"
             />
-
             <div class="card-profile">
                 <div class="box-card-left">
                     <div class="box-img">
-                        <img src="../assets/bg_slider_1.jpeg" alt="">
+                        <img src="../assets/farid.jpeg" alt="">
                     </div>
                     <p>
-                        Hi, Saya Ridwan (Sales Supervisor) Dealer Resmi Honda. Dengan pengalaman lebih dari 5 tahun di bidang otomotif dan pemasaran serta kredibilitas, khususnya dalam pelayanan jual beli mobil Honda. Saya akan memberikan Excellent Service sesuai dengan kebutuhan Anda dalam memiliki mobil Honda. Silahkan bertanya lebih lanjut tentang produk mobil Honda dengan menghubungi saya. 
+                        Hi, Saya Farid (Sales Supervisor) Dealer Resmi MG. Dengan pengalaman lebih dari 5 tahun di bidang otomotif dan pemasaran serta kredibilitas, khususnya dalam pelayanan jual beli mobil MG. Saya akan memberikan Excellent Service sesuai dengan kebutuhan Anda dalam memiliki mobil MG. Silahkan bertanya lebih lanjut tentang produk mobil Honda dengan menghubungi saya. 
                     </p>
                 </div>
                 <div class="box-card-right">
@@ -35,7 +50,7 @@
                     </a>
                 </div>
             </div>
-                <Footer/>
+            <Footer/>
         </div>
 </template>
 
@@ -53,6 +68,7 @@ export default {
         console.log(_props)
         
         const jalan=()=>{
+            console.log('function jalans')
             emit('modalsMenu',{status:true})
         }
 
@@ -71,12 +87,33 @@ export default {
             document.getElementById("modalDownloadInvoice").style.display = "none"
             document.getElementById("modalDownloadInvoice").className += document.getElementById("modalDownloadInvoice").className.replace("show", "")
         }
+
+
+          const modalsMenuMobile=(response)=>{
+            console.log(response.status)
+                    modalsMenu.value = response.status
+            document.getElementById("backdrop").style.display = "block"
+            document.getElementById("modalsMobile").style.display = "block"
+            document.getElementById("modalsMobile").className += "show"
+
+        }
+
+        const closeModalMobile=()=>{
+            
+            console.log('close modal jalanlet ')
+            document.getElementById("backdrop").style.display = "none"
+            document.getElementById("modalsMobile").style.display = "none"
+            document.getElementById("modalsMobile").className += document.getElementById("modalDownloadInvoice").className.replace("show", "")
+        }
+
       
       return {
         jalan,
         modalsMenu,
         modalsMenuMg,
-        closeModal
+        closeModal,
+        modalsMenuMobile,
+        closeModalMobile
       }
     },
 }

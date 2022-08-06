@@ -16,10 +16,36 @@
             <div class="modal-backdrop fade show" id="backdrop"  style="display: none;" ></div>
         <!-- MODALS START MENU MG -->
 
+        <!-- MODALS MOBILE START -->
+        <div class="modal  modal-downlad-invoice fade" id="modalsMobile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" @click.self="closeModalMobile()" >
+            <div class="modal-dialog modal-dialog-centered .modal-lg">
+                <div class="modal-content modal-content-mobile">  
+                    <div class="modal-body">
+                        <div class="top-header-mobile">
+                            <p >More Menu</p>
+                            <div class="icon-card" @click="closeModalMobile">
+                                <i class="fa-solid fa-xmark"  ></i>
+                            </div>
+                        </div>
+                        <div class="body-mobile-card">
+                            <p>Home</p>
+                            <a href="/car-detail/zs">New MG ZS</a>
+                            <a href="/car-detail/hs">MG HS</a>
+                            <a href="car-detail-gt">MG 5 GT</a>
+                            <p>Contact ME</p>
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="modal-backdrop fade show" id="backdrop"  style="display: none;" ></div>
+        <!-- MODALS MOBILE END -->
+
         <!-- <div class="box-header"> -->
         <!-- </div> -->
         <topHeader
         @modalsMenu="modalsMenuMg"
+        @modalsMenuMobile="modalsMenuMobile"
         />
         <!-- data-bs-interval="1000" -->
         <div class="box-carousel-home">
@@ -243,6 +269,23 @@ export default {
             document.getElementById("modalDownloadInvoice").className += "show"
         }
 
+        const modalsMenuMobile=(response)=>{
+            console.log(response.status)
+                    modalsMenu.value = response.status
+            document.getElementById("backdrop").style.display = "block"
+            document.getElementById("modalsMobile").style.display = "block"
+            document.getElementById("modalsMobile").className += "show"
+
+        }
+
+        const closeModalMobile=()=>{
+            
+            console.log('close modal jalanlet ')
+            document.getElementById("backdrop").style.display = "none"
+            document.getElementById("modalsMobile").style.display = "none"
+            document.getElementById("modalsMobile").className += document.getElementById("modalDownloadInvoice").className.replace("show", "")
+        }
+
         function closeModal() {
             console.log('close modal jalanlet ')
             document.getElementById("backdrop").style.display = "none"
@@ -274,7 +317,9 @@ export default {
             zs_slider_design,
             gt_slider_design,
             car_active_name,
-            go_to_page
+            go_to_page,
+            modalsMenuMobile,
+            closeModalMobile
         }
         
     },

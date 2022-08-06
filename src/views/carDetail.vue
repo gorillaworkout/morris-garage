@@ -14,9 +14,34 @@
         </div> 
         <div class="modal-backdrop fade show" id="backdrop"  style="display: none;" ></div>
 
+            <!-- MODALS MOBILE START -->
+            <div class="modal  modal-downlad-invoice fade" id="modalsMobile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" @click.self="closeModalMobile()" >
+                <div class="modal-dialog modal-dialog-centered .modal-lg">
+                    <div class="modal-content modal-content-mobile">  
+                        <div class="modal-body">
+                            <div class="top-header-mobile">
+                                <p >More Menu</p>
+                                <div class="icon-card" @click="closeModalMobile">
+                                    <i class="fa-solid fa-xmark"  ></i>
+                                </div>
+                            </div>
+                            <div class="body-mobile-card">
+                                <p>Home</p>
+                                <a href="/car-detail/zs">New MG ZS</a>
+                                <a href="/car-detail/hs">MG HS</a>
+                                <a href="car-detail-gt">MG 5 GT</a>
+                                <p>Contact ME</p>
+                            </div>                 
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="modal-backdrop fade show" id="backdrop"  style="display: none;" ></div>
+            <!-- MODALS MOBILE END -->
 
         <TopHeader
-        @modalsMenu="modalsMenuMg"/>
+        @modalsMenu="modalsMenuMg"
+        @modalsMenuMobile="modalsMenuMobile"/>
         <!-- MG 5 GT -->
         <div class="box-detail-video" v-if="car_id === 'gt'">
             <iframe width="100%" height="100%" class="youtube_detail" src="https://www.youtube.com/embed/h529sg3pEV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -935,6 +960,26 @@ export default {
             document.getElementById("modalDownloadInvoice").className += document.getElementById("modalDownloadInvoice").className.replace("show", "")
         }
 
+
+         const modalsMenuMobile=(response)=>{
+            console.log(response.status)
+                    modalsMenu.value = response.status
+            document.getElementById("backdrop").style.display = "block"
+            document.getElementById("modalsMobile").style.display = "block"
+            document.getElementById("modalsMobile").className += "show"
+
+        }
+
+        const closeModalMobile=()=>{
+            
+            console.log('close modal jalanlet ')
+            document.getElementById("backdrop").style.display = "none"
+            document.getElementById("modalsMobile").style.display = "none"
+            document.getElementById("modalsMobile").className += document.getElementById("modalDownloadInvoice").className.replace("show", "")
+        }
+
+        
+
         const change_color=(id,color)=>{
             if(id==='gt'){
                 gt_active_color.value = color
@@ -966,7 +1011,9 @@ export default {
             gt_active_color,
             change_color,
             zs_active_color,
-            hs_active_color
+            hs_active_color,
+            modalsMenuMobile,
+            closeModalMobile
         }
         
     },
