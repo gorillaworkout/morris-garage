@@ -29,8 +29,8 @@
                                 <p>Home</p>
                                 <a href="/car-detail/zs">New MG ZS</a>
                                 <a href="/car-detail/hs">MG HS</a>
-                                <a href="car-detail-gt">MG 5 GT</a>
-                                <p>Contact ME</p>
+                                <a href="car-detail/gt">MG 5 GT</a>
+                                <a href="/profile">Contact ME</a>
                             </div>                 
                         </div>
                     </div>
@@ -73,8 +73,8 @@
                         <div class="car-detail-content">
                             <img src="../assets/detail_car_gt.png" alt="">
                         </div>
-                        <p>MG 5 GT is full of sunshine, filled with energy, feel alive every moment with passion to share the happiness and joyous</p>
-                        <p>Another Level of value lead your way</p>
+                        <p>MG 5 GT penuh dengan sinar matahari, penuh dengan energi, merasa hidup setiap saat dengan semangat untuk berbagi kebahagiaan dan kegembiraan</p>
+                        <p>Tingkat nilai lain memimpin Anda</p>
                         <div class="brochure-card">
                             <div class="brochure-item">
                                 <a href="">Test Drive new MG 5 GT</a>
@@ -90,13 +90,13 @@
                             <img src="../assets/dual_car_gt_detail.png" alt="">
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Refined Exterior Design</p>
-                            <p>The new MG signature design of the Digital Flaming Grille, sharp lines, agility and sleek body of the Sporty British 4 Door Coupe design give it a sporty look on MG 5 GT. Two-tone Tomahawk alloy wheels and LED Projector Headlight headlamps also provide a sharper feel.</p>
+                            <p>Desain Eksterior Halus</p>
+                            <p>Desain khas MG baru dari Digital Flaming Grille, garis-garis tajam, kelincahan dan bodi ramping dari desain Sporty British 4 Door Coupe memberikan tampilan sporty pada MG 5 GT. Velg Tomahawk two-tone dan lampu depan LED Projector Headlight juga memberikan nuansa yang lebih tajam</p>
                             <div class="card-performance">
                                 <img src="../assets/gt_performance_detail.png" alt="">
                                 <div class="performance-detail">
-                                    <p>Performance</p>
-                                    <p>Redefining the meaning of driving MG 5 GT</p>
+                                    <p>Pertunjukan</p>
+                                    <p>Mendefinisikan ulang arti mengemudi MG 5 GT</p>
                                     <div class="small-card-performance">
                                         <div class="item-card-small">
                                             <p>2680</p>
@@ -128,8 +128,8 @@
                         </div>
                         <div class="exterior-colour-box">
                             <div class="detail-exterior-colour">
-                                <p>Exterior Colour</p>
-                                <p>The details of the vehicle may vary, according to the actual sub-model</p>
+                                <p>Warna Eksterior</p>
+                                <p>Rincian kendaraan dapat bervariasi, sesuai dengan sub-model yang sebenarnya</p>
                             </div>
                             <div class="box-color-option">
                                 <div class="card-color" :class="{'active' : gt_active_color === 'yellow'}" @click="change_color('gt','yellow')">
@@ -165,7 +165,7 @@
                             </div>
                         </div>
                         <div class="box-exterior-design">
-                            <p>Exterior Design</p>
+                            <p>Desain Eksterior</p>
                             <div class="card-design-ext">
                                 <div class="card-item-small-ext">
                                     <img src="../assets/exterior_gt/gt_front_exterior.png" alt="">
@@ -186,7 +186,7 @@
                             </div>
                         </div>
                         <div class="box-exterior-design">
-                            <p>Interior  Design</p>
+                            <p>Desain interior</p>
                             <div class="card-design-ext">
                                 <div class="card-item-small-ext">
                                     <img src="../assets/exterior_gt/sunroof.png" alt="">
@@ -229,22 +229,22 @@
                             </div>
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Refined Performance and Efficiency</p>
+                            <p>Performa dan Efisiensi yang Disempurnakan</p>
                             <div class="card-performance">
                                 <img src="../assets/inifinite_performance_gt.png" alt="">
                                 <div class="performance-detail">
-                                    <p>INFINITE DRIVING</p>
-                                    <p>Explore a new driving experience with gasoline engines with the latest CVT 8 SPEED AUTOMATIC TRANSMISSION to provide a better driving experience. Engineering has been developed to increase ground clearance and low body size. Electric handbrake, 3-stage weight-adjustable steering wheel and driver-focused cockpit console are best suited for drivers to experience a more enjoyable sporty driving experience.</p>
+                                    <p>MENGEMUDI TAK TERBATAS</p>
+                                    <p>Jelajahi pengalaman berkendara baru dengan mesin bensin dengan CVT 8 SPEED AUTOMATIC TRANSMISSION terbaru untuk memberikan pengalaman berkendara yang lebih baik. Rekayasa telah dikembangkan untuk meningkatkan ground clearance dan ukuran bodi yang rendah. Rem tangan elektrik, roda kemudi 3-tahap yang dapat disesuaikan dengan bobot, dan konsol kokpit yang berfokus pada pengemudi paling cocok bagi pengemudi untuk merasakan pengalaman berkendara sporty yang lebih menyenangkan.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Refined Safety</p>
+                            <p>Keamanan Halus</p>
                             <div class="card-performance">
                                 <img src="../assets/gt_safety.png" alt="">
                                 <div class="performance-detail">
-                                    <p>INFINITE SAFETY</p>
-                                    <p>MG 5 GT safety with Advanced Synchronized Protection System, the European system which integrates blind spot warning, lane keep assist, 4-wheel disc brakes, euro tuning suspension and full space frame. Extra peace of mind with 6 airbags and 3D around view camera where sportiness comes with the ultimate safety.</p>
+                                    <p>KEAMANAN TAK TERBATAS</p>
+                                    <p>Keamanan MG 5 GT dengan Advanced Synchronized Protection System, sistem Eropa yang mengintegrasikan peringatan blind spot, lane keep assist, rem cakram 4 roda, suspensi euro tuning dan full space frame. Ketenangan pikiran ekstra dengan 6 airbag dan kamera 3D di sekitar tampilan di mana sporty hadir dengan keamanan tertinggi.</p>
                                 </div>
                             </div>
                         </div>
@@ -276,8 +276,8 @@
                         <div class="car-detail-content">
                             <img src="../assets/detail_car_gt.png" alt="">
                         </div>
-                        <p>MG 5 GT is full of sunshine, filled with energy, feel alive every moment with passion to share the happiness and joyous</p>
-                        <p>Another Level of value lead your way</p>
+                        <p>MG 5 GT penuh dengan sinar matahari, penuh dengan energi, merasa hidup setiap saat dengan semangat untuk berbagi kebahagiaan dan kegembiraan</p>
+                        <p>Tingkat nilai lain memimpin Anda</p>
                         <div class="brochure-card">
                             <div class="brochure-item">
                                 <a href="">Test Drive new MG 5 GT</a>
@@ -345,8 +345,8 @@
                         <div class="car-detail-content">
                             <img src="../assets/mg_hs/overview_hs.png" alt="">
                         </div>
-                        <p>When Innovation Meet Style, It Refines The New Leadership</p>
-                        <p>Another Level of value lead your way</p>
+                        <p>Ketika Inovasi Bertemu dengan Gaya, Itu Menyempurnakan Kepemimpinan Baru</p>
+                        <p>Tingkat nilai lain memimpin Anda</p>
                         <div class="brochure-card">
                             <div class="brochure-item">
                                 <a href="">Test Drive new MG HS</a>
@@ -362,13 +362,13 @@
                             <img src="../assets/mg_hs/overview_hs_2.png" alt="">
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Refined Exterior Design</p>
-                            <p>Every component and element on the MG HS reveals its superiority of design and craftsmanship. It’s elegant exterior that immediately catches the eye and the meticulously interior design make superior impression at first glance. And under the BRIT DYNAMIC concept, the MG HS combines PERFORMANCE, HANDLING, DESIGN and SAFETY in one large, powerful, and irresistible-looking SUV. A true reflection of your own excellence.</p>
+                            <p>Desain Eksterior Halus</p>
+                            <p>Setiap komponen dan elemen pada MG HS mengungkapkan keunggulan desain dan pengerjaannya. Eksteriornya yang elegan langsung menarik perhatian dan desain interior yang cermat membuat kesan superior pada pandangan pertama. Dan di bawah konsep BRIT DYNAMIC, MG HS menggabungkan PERFORMANCE, HANDLING, DESIGN, dan SAFETY dalam satu SUV besar, bertenaga, dan tampak tak tertahankan. Sebuah cerminan sejati dari keunggulan Anda sendiri.</p>
                             <div class="card-performance">
                                 <img src="../assets/mg_hs/overview_hs_3.png" alt="">
                                 <div class="performance-detail">
-                                    <p>Performance</p>
-                                    <p>Redefining the meaning of driving MG HS</p>
+                                    <p>Pertunjukan</p>
+                                    <p>Mendefinisikan ulang arti mengemudi MG HS</p>
                                     <div class="small-card-performance">
                                         <div class="item-card-small">
                                             <p>2720</p>
@@ -399,8 +399,8 @@
                         </div>
                         <div class="exterior-colour-box">
                             <div class="detail-exterior-colour">
-                                <p>Exterior Colour</p>
-                                <p>The details of the vehicle may vary, according to the actual sub-model</p>
+                                <p>Warna Eksterior</p>
+                                <p>Rincian kendaraan dapat bervariasi, sesuai dengan sub-model yang sebenarnya</p>
                             </div>
                             <div class="box-color-option">
                                 <div class="card-color" :class="{'active' : hs_active_color === 'red'}" @click="change_color('hs','yellow')">
@@ -430,7 +430,7 @@
                             </div>
                         </div>
                         <div class="box-exterior-design">
-                            <p>Exterior Design</p>
+                            <p>Desain Eksterior</p>
                             <div class="card-design-ext">
                                 <div class="card-item-small-ext">
                                     <img src="../assets/mg_hs/hs_grille.png" alt="">
@@ -451,7 +451,7 @@
                             </div>
                         </div>
                         <div class="box-exterior-design">
-                            <p>Interior  Design</p>
+                            <p>Desain Interior</p>
                             <div class="card-design-ext">
                                 <div class="card-item-small-ext">
                                     <img src="../assets/mg_hs/panoramic_interior.png" alt="">
@@ -493,22 +493,22 @@
                             </div>
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Performance</p>
+                            <p>Pertunjukan</p>
                             <div class="card-performance">
                                 <img src="../assets/mg_hs/performance_hs_2.png" alt="">
                                 <div class="performance-detail">
-                                    <p>Performance</p>
-                                    <p>MG HS is equipped with power distribution technology that provides a responsive driving experience.A turbo engine that produces 162 PS of power at 5600 RPM engine speed with a combination of 4 + 1 Driving Mode (Eco, Normal, Sport, Super Sport + Custom) which can be adjusted to your driving character and is ready to pump your adrenaline.</p>
+                                    <p>Pertunjukan</p>
+                                    <p>MG HS dilengkapi dengan teknologi distribusi tenaga yang memberikan pengalaman berkendara yang responsif. Mesin turbo yang menghasilkan tenaga 162 PS pada putaran mesin 5600 RPM dengan kombinasi 4+1 Driving Mode (Eco, Normal, Sport, Super Sport + Custom) yang dapat disesuaikan dengan karakter berkendara Anda dan siap memompa adrenalin Anda.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Refined Safety</p>
+                            <p>Keamanan Halus</p>
                             <div class="card-performance">
                                 <img src="../assets/mg_hs/performance_hs_3.png" alt="">
                                 <div class="performance-detail">
-                                    <p>Safety</p>
-                                    <p>Go further and drive to every destination with confidence. The NEW MG HS with EURO TUNING SUSPENSION and the ADVANCED SYNCHRONISED PROTECTION SYSTEM, an enhanced safety system that meets European standards, has 25 safety features working together to provide you with maximum safety. Even more safety features with 6 airbags as front dual airbags, side airbags and curtain airbags.</p>
+                                    <p>Keamanan</p>
+                                    <p>Melangkah lebih jauh dan berkendara ke setiap tujuan dengan percaya diri. MG HS BARU dengan EURO TUNING SUSPENSION dan ADVANCED SYNCHRONIZED PROTECTION SYSTEM, sistem keselamatan yang disempurnakan yang memenuhi standar Eropa, memiliki 25 fitur keselamatan yang bekerja bersama untuk memberikan Anda keamanan maksimum. Bahkan lebih banyak fitur keselamatan dengan 6 airbag seperti airbag depan ganda, airbag samping dan airbag tirai.</p>
                                 </div>
                             </div>
                         </div>
@@ -541,7 +541,7 @@
                             <img src="../assets/mg_hs/hs_price.png" alt="">
                         </div>
                         <!-- <p>MG 5 GT is full of sunshine, filled with energy, feel alive every moment with passion to share the happiness and joyous</p> -->
-                        <!-- <p>Another Level of value lead your way</p> -->
+                        <!-- <p>Tingkat nilai lain memimpin Anda</p> -->
                         <div class="brochure-card">
                             <div class="brochure-item">
                                 <a href="">Test Drive new MG HS</a>
@@ -607,8 +607,8 @@
                         <div class="car-detail-content">
                             <img src="../assets/mg_zs/zs_overview.png" alt="">
                         </div>
-                        <p>MG ZS is full of sunshine, filled with energy, feel alive every moment with passion to share the happiness and joyous</p>
-                        <p>Another Level of value lead your way</p>
+                        <p>MG ZS penuh dengan sinar matahari, penuh dengan energi, merasa hidup setiap saat dengan semangat untuk berbagi kebahagiaan dan kegembiraan</p>
+                        <p>Tingkat nilai lain memimpin Anda</p>
                         <div class="brochure-card">
                             <div class="brochure-item">
                                 <a href="">Test Drive new MG ZS</a>
@@ -624,13 +624,13 @@
                             <img src="../assets/mg_zs/zs_overview_2.png" alt="">
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Refined Exterior Design</p>
-                            <p>The new MG signature design of the Digital Flaming Grille, sharp lines, agility and sleek body of the Sporty British 4 Door Coupe design give it a sporty look on MG ZS. Two-tone Tomahawk alloy wheels and LED Projector Headlight headlamps also provide a sharper feel.</p>
+                            <p>Desain Eksterior Halus</p>
+                            <p>Desain khas MG baru dari Digital Flaming Grille, garis-garis tajam, kelincahan, dan bodi ramping dari desain Sporty British 4 Door Coupe memberikan tampilan sporty pada MG ZS. Velg Tomahawk two-tone dan lampu depan LED Projector Headlight juga memberikan nuansa yang lebih tajam.</p>
                             <div class="card-performance">
                                 <img src="../assets/mg_zs/zs_overview_3.png" alt="">
                                 <div class="performance-detail">
-                                    <p>Performance</p>
-                                    <p>Redefining the meaning of driving MG 5 GT</p>
+                                    <p>Pertunjukan</p>
+                                    <p>Mendefinisikan ulang arti mengemudi MG 5 GT</p>
                                     <div class="small-card-performance">
                                         <div class="item-card-small">
                                             <p>2680</p>
@@ -692,7 +692,7 @@
                             </div>
                         </div>
                          <div class="box-exterior-design">
-                            <p>Exterior Design</p>
+                            <p>Desain Eksterior</p>
                             <div class="card-design-ext">
                                 <div class="card-item-small-ext">
                                     <img src="../assets/mg_zs/design_grille.png" alt="">
@@ -713,7 +713,7 @@
                             </div>
                         </div>
                         <div class="box-exterior-design">
-                            <p>Interior  Design</p>
+                            <p>Desain Interior</p>
                             <div class="card-design-ext">
                                 <div class="card-item-small-ext">
                                     <img src="../assets/mg_zs/panoramic.png" alt="">
@@ -756,22 +756,22 @@
                             </div>
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Refined Performance and Efficiency</p>
+                            <p>Performa dan Efisiensi yang Disempurnakan</p>
                             <div class="card-performance">
                                 <img src="../assets/mg_zs/performance_zs_2.png" alt="">
                                 <div class="performance-detail">
-                                    <p>Performance</p>
-                                    <p>Drive to every desired destination with the exciting performance of the 1.5 litre, 114 horsepower engine that seamlessly combines the new CVT gear to provide a better driving experience.</p>
+                                    <p>Pertunjukan</p>
+                                    <p>Berkendara ke setiap tujuan yang diinginkan dengan kinerja menarik dari mesin 1,5 liter, 114 tenaga kuda yang menggabungkan gigi CVT baru dengan mulus untuk memberikan pengalaman berkendara yang lebih baik.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="card-exterior-detail">
-                            <p>Refined Safety</p>
+                            <p>Keamanan Halus</p>
                             <div class="card-performance">
                                 <img src="../assets/mg_zs/performance_zs_3.png" alt="">
                                 <div class="performance-detail">
-                                    <p>SAFETY</p>
-                                    <p>Go further and drive to every destination with confidence. The NEW MG ZS with EURO TUNING SUSPENSION and the SYNCHRONIZED PROTECTION SYSTEM that provides you with maximum safety.provide you with maximum safety. Even more safety features with 6 airbags as front dual airbags, side airbags and curtain airbags</p>
+                                    <p>KEAMANAN</p>
+                                    <p>Melangkah lebih jauh dan berkendara ke setiap tujuan dengan percaya diri. MG ZS BARU dengan PENANGGUHAN TUNING EURO dan SISTEM PERLINDUNGAN SYNCHRONIZED yang memberi Anda keamanan maksimal. memberi Anda keamanan maksimal. Bahkan lebih banyak fitur keselamatan dengan 6 airbag sebagai airbag depan ganda, airbag samping dan airbag tirai</p>
                                 </div>
                             </div>
                         </div>
@@ -804,7 +804,7 @@
                             <img src="../assets/mg_zs/price_zs.png" alt="">
                         </div>
                         <!-- <p>MG 5 GT is full of sunshine, filled with energy, feel alive every moment with passion to share the happiness and joyous</p> -->
-                        <!-- <p>Another Level of value lead your way</p> -->
+                        <!-- <p>Tingkat nilai lain memimpin Anda</p> -->
                         <div class="brochure-card">
                             <div class="brochure-item">
                                 <a href="">Test Drive new MG ZS</a>

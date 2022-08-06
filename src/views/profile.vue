@@ -16,15 +16,24 @@
             <div class="modal-backdrop fade show" id="backdrop"  style="display: none;" ></div>
             <!-- MODALS START MENU MG -->
 
-             <!-- MODALS MOBILE START -->
+            <!-- MODALS MOBILE START -->
             <div class="modal  modal-downlad-invoice fade" id="modalsMobile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" @click.self="closeModalMobile()" >
                 <div class="modal-dialog modal-dialog-centered .modal-lg">
-                    <div class="modal-content modal-content-download">
-                        
+                    <div class="modal-content modal-content-mobile">  
                         <div class="modal-body">
-                            <img src="../assets/small_car_1.png" alt="" @click="go_to_page('gt')">
-                            <img src="../assets/small_car_2.png" alt="" @click="go_to_page('zs')">
-                            <img src="../assets/small_car_3.png" alt="" @click="go_to_page('hs')">
+                            <div class="top-header-mobile">
+                                <p >More Menu</p>
+                                <div class="icon-card" @click="closeModalMobile">
+                                    <i class="fa-solid fa-xmark"  ></i>
+                                </div>
+                            </div>
+                            <div class="body-mobile-card">
+                                <p>Home</p>
+                                <a href="/car-detail/zs">New MG ZS</a>
+                                <a href="/car-detail/hs">MG HS</a>
+                                <a href="car-detail/gt">MG 5 GT</a>
+                                <a href="/profile">Contact ME</a>
+                            </div>                 
                         </div>
                     </div>
                 </div>
@@ -33,6 +42,7 @@
             <!-- MODALS MOBILE END -->
             <topHeader
             @modalsMenu="modalsMenuMg"
+            @modalsMenuMobile="modalsMenuMobile"
             />
             <div class="card-profile">
                 <div class="box-card-left">

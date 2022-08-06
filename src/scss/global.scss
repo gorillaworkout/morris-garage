@@ -317,6 +317,32 @@
         }
     }
 
+    //profile page
+
+    .box-home-container{
+        .card-profile{
+            height:100%;
+            flex-direction: column;
+            padding:10px;
+            .box-card-left{
+                width:100%;
+                height:400px;
+            }
+            .box-card-right{
+                width:100%;
+                iframe{
+                    width:80% !important;
+                    margin-bottom:30px;
+                }
+                .card-wa{
+                    width:200px;
+                    height:50px
+                }
+            }
+        }
+
+    }
+
     .top-footer-box{
         .card-icon-soc{
             .fa-facebook-f{

@@ -31,8 +31,8 @@
                             <p>Home</p>
                             <a href="/car-detail/zs">New MG ZS</a>
                             <a href="/car-detail/hs">MG HS</a>
-                            <a href="car-detail-gt">MG 5 GT</a>
-                            <p>Contact ME</p>
+                            <a href="car-detail/gt">MG 5 GT</a>
+                            <a href="/profile">Contact ME</a>
                         </div>                 
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                 <div class="title-card">
                     <p>Innovation</p>
                     <p>
-                        MG has been ahead of its time since the brand’s inception in the Morris Garages in 1924. Now a new generation can choose a car with innovation from this iconic brand. Updated, electrified, recharged and ready for the future.
+                        MG telah menjadi yang terdepan sejak awal kemunculannya di Morris Garages pada tahun 1924. Kini generasi baru dapat memilih mobil dengan inovasi dari merek ikonik ini. Diperbarui, dialiri listrik, diisi ulang, dan siap untuk masa depan.
                     </p>
                 </div>
                 <div class="box-innovation">
@@ -179,7 +179,7 @@ export default {
         let option_active_car = ref('hs')
         let car_active_name = ref({
             name:'MG HS',
-            detail:'Every component and element on the MG HS expresses the hallmarks of British design, cutting edge power, precise handling and uncompromising safety. The elegant exterior that immediately catches the eye and the detailed interior design makes a superior impression at first glance. And under the BRIT DYNAMIC concept, the MG HS combines PERFORMANCE, HANDLING, DESIGN and SAFETY in one prime SUV. The MG HS is a true reflection of excellence.'
+            detail:'Setiap komponen dan elemen pada MG HS mengekspresikan keunggulan desain Inggris, tenaga canggih, penanganan yang presisi, dan keselamatan tanpa kompromi. Eksterior elegan yang langsung menarik perhatian dan detail desain interior membuat kesan superior pada pandangan pertama. Dan di bawah konsep BRIT DYNAMIC, MG HS menggabungkan PERFORMANCE, HANDLING, DESIGN, dan SAFETY dalam satu SUV prima. MG HS adalah cerminan keunggulan sejati.'
         })
         let homeSliderCar = ref([
           {
@@ -190,6 +190,14 @@ export default {
           },
            {
               img:[require('../assets/bg_slider_3.jpeg')]
+          }
+          ,
+           {
+              img:[require('../assets/bg_slider_4.jpeg')]
+          }
+          ,
+           {
+              img:[require('../assets/bg_slider_5.jpeg')]
           }
       ])
         let hs_slider_design = ref([
@@ -246,17 +254,17 @@ export default {
             if(id === 'gt'){
                 car_active_name.value = {
                     name:'MG 5 GT',
-                    detail:'MG 5 GT is full of sunshine, filled with energy, feel alive every moment with passion to share the happiness and joyous'
+                    detail:'MG 5 GT penuh dengan sinar matahari, penuh dengan energi, merasa hidup setiap saat dengan semangat untuk berbagi kebahagiaan dan kegembiraan'
                 }
             }else if (id === 'hs'){
                 car_active_name.value = {
                     name:'MG HS',
-                    detail:'Every component and element on the MG HS expresses the hallmarks of British design, cutting edge power, precise handling and uncompromising safety. The elegant exterior that immediately catches the eye and the detailed interior design makes a superior impression at first glance. And under the BRIT DYNAMIC concept, the MG HS combines PERFORMANCE, HANDLING, DESIGN and SAFETY in one prime SUV. The MG HS is a true reflection of excellence.'
+                    detail:'Setiap komponen dan elemen pada MG HS mengekspresikan keunggulan desain Inggris, tenaga canggih, penanganan yang presisi, dan keselamatan tanpa kompromi. Eksterior elegan yang langsung menarik perhatian dan detail desain interior membuat kesan superior pada pandangan pertama. Dan di bawah konsep BRIT DYNAMIC, MG HS menggabungkan PERFORMANCE, HANDLING, DESIGN, dan SAFETY dalam satu SUV prima. MG HS adalah cerminan keunggulan sejati.'
                 }
             }else {
                 car_active_name.value = {
                     name:'New MG ZS',
-                    detail:'Excellent response and agility to make you comfortable on every journey. The style of the NEW MG ZS will take you in a dynamic driving experience. The real dynamic NEW MG ZS. And that is a promise on every ride and for every NEW MG ZS rider. No compromises. No regrets. No rational arguments.'
+                    detail:'Respon dan kelincahan yang sangat baik membuat Anda nyaman di setiap perjalanan. Gaya MG ZS BARU akan membawa Anda dalam pengalaman berkendara yang dinamis. MG ZS BARU yang sangat dinamis. Dan itu adalah janji di setiap perjalanan dan untuk setiap pengendara MG ZS BARU. Tidak ada kompromi. Tidak ada penyesalan. Tidak ada argumen rasional.'
                 }
             }
         }
