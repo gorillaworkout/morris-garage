@@ -1,20 +1,20 @@
 <template>    
         <div class="top-footer-box">
-            <div class="card-icon-soc">
-                <i class="fa-brands fa-facebook-f"></i>
-            </div>
-             <div class="card-icon-soc">
+            <a href="tel:6283811111796" class="card-icon-soc">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+             <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris" class="card-icon-soc">
                 <i class="fa-brands fa-whatsapp"></i>
-            </div>
-             <div class="card-icon-soc">
+            </a>
+             <!-- <div class="card-icon-soc">
                 <i class="fa-brands fa-youtube"></i>
-            </div>
-             <div class="card-icon-soc">
+            </div> -->
+             <a href="https://www.instagram.com/mgkebonjeruk/"  target="_blank" class="card-icon-soc">
                 <i class="fa-brands fa-instagram"></i>
-            </div>
-             <div class="card-icon-soc">
+            </a>
+             <!-- <div class="card-icon-soc">
                 <i class="fa-solid fa-at"></i>
-            </div>
+            </div> -->
         </div>
 </template>
 

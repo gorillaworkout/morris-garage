@@ -19,6 +19,9 @@
         justify-content: center;
         align-items: center;
         &:hover{
+            .fa-phone{
+                color:red;
+            }
             .fa-facebook-f{
                 color:red;
             }
@@ -37,6 +40,11 @@
         }
         &:hover{
             cursor: pointer;
+        }
+        .fa-phone{
+            color:white;
+            font-size:25px;
+            transition:0.5s;
         }
         .fa-facebook-f{
             color:white;

@@ -50,11 +50,11 @@
                         <img src="../assets/farid.jpeg" alt="">
                     </div>
                     <p>
-                        Hi, Saya Farid (Sales Supervisor) Dealer Resmi MG. Dengan pengalaman lebih dari 5 tahun di bidang otomotif dan pemasaran serta kredibilitas, khususnya dalam pelayanan jual beli mobil MG. Saya akan memberikan Excellent Service sesuai dengan kebutuhan Anda dalam memiliki mobil MG. Silahkan bertanya lebih lanjut tentang produk mobil Honda dengan menghubungi saya. 
+                        Hi, Saya Farid (Sales Senior Eksekutif ) Dealer Resmi MG. Dengan pengalaman lebih dari 5 tahun di bidang otomotif dan pemasaran serta kredibilitas, khususnya dalam pelayanan jual beli mobil MG. Saya akan memberikan Excellent Service sesuai dengan kebutuhan Anda dalam memiliki mobil MG. Silahkan bertanya lebih lanjut tentang produk mobil MG dengan menghubungi saya. 
                     </p>
                 </div>
                 <div class="box-card-right">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.073447459285!2d106.7893282501659!3d-6.120816495546319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1db56ead4a57%3A0x8ae4437919233946!2sMorris%20Garage%20Indonesia%20-%20MG%20Mobil%20Pluit%20Jakarta!5e0!3m2!1sen!2sid!4v1659370394124!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32493591.97369621!2d70.90621800000002!3d-6.197180799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f71f89fb2841%3A0xc49d865f405bd30b!2sPT.%20Sun%20Motor%20-%20MG!5e0!3m2!1sen!2sid!4v1659774925765!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <a href="" class="card-wa">
                         Contact 
                     </a>

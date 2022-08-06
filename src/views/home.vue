@@ -75,7 +75,7 @@
                     </div>
                     <div class="header-right">
                         <div class="button-seemore" v-if="option_active_car === 'hs'">
-                            <a href="/car-detailhs"> SEE MORE</a>
+                            <a href="/car-detail/hs"> SEE MORE</a>
                         </div>
                         <div class="button-seemore" v-if="option_active_car === 'zs'">
                             <a href="/car-detail/zs"> SEE MORE</a>
@@ -120,6 +120,62 @@
                             </div>
                         </div>       
                     </div>
+                    <h1>DAFTAR HARGA</h1>
+                        <div class="price-card" v-if="option_active_car === 'hs'">
+                          
+                            <div class="detail-price-card">
+                                <p>HS Ignite</p>
+                                <p>Start From</p>
+                                <p>RP. 460.800.000</p>
+                            </div>
+                            <div class="detail-price-card">
+                                <p>HS i-Smart</p>
+                                <p>Start From</p>
+                                <p>RP. 494.800.000</p>
+                            </div>
+                            <div class="detail-price-card">
+                                <p>HS LFC Edition</p>
+                                <p>Start From</p>
+                                <p>RP. 519.800.000</p>
+                                <p>Warna Scarlet Red + Rp.5.000.000</p>
+                            </div>
+                        </div>  
+                        <div class="price-card"  v-if="option_active_car === 'zs'">
+                            <div class="detail-price-card">
+                                <p>ZS Activate</p>
+                                <p>Start From</p>
+                                <p>RP. 289.800.000</p>
+                                
+                            </div>
+                            <div class="detail-price-card">
+                                <p>ZS Ignite</p>
+                                <p>Start From</p>
+                                <p>RP. 309.800.000</p>
+                            </div>
+                            <div class="detail-price-card">
+                                <p>ZS Magnify</p>
+                                <p>Start From</p>
+                                <p>RP. 329.800.000</p>
+                                <p>Warna Scarlet Red + Rp.5.000.000</p>
+                            </div>
+                        </div>
+                        <div class="price-card" v-if="option_active_car === 'gt'">
+                            <div class="detail-price-card">
+                                <p>5 GT Activate</p>
+                                <p>Start From</p>
+                                <p>RP. 339.900.000</p>
+                            </div>
+                            <div class="detail-price-card">
+                                <p>5 GT Ignite</p>
+                                <p>Start From</p>
+                                <p>RP. 359.900.000</p>
+                            </div>
+                            <div class="detail-price-card">
+                                <p>5 GT Magnify</p>
+                                <p>Start From</p>
+                                <p>RP. 399.900.000</p>
+                            </div>
+                        </div>
                 </div>
             </div>
             <div class="box-innovation-car">
@@ -195,10 +251,6 @@ export default {
            {
               img:[require('../assets/bg_slider_4.jpeg')]
           }
-          ,
-           {
-              img:[require('../assets/bg_slider_5.jpeg')]
-          }
       ])
         let hs_slider_design = ref([
             {
@@ -209,6 +261,7 @@ export default {
                 id:'hs',
                 img:[require('../assets/hs_2_slide.png')]
             },
+             
         ])
         let zs_slider_design = ref([
             {
@@ -219,8 +272,10 @@ export default {
                id:'zs',
                img:[require('../assets/zs_2_slide.png')]
            },
+          
         ])
         let gt_slider_design = ref([
+
             {
                id:'gt',
                img:[require('../assets/mg_gt_1_slide.png')]
@@ -229,6 +284,7 @@ export default {
                id:'gt',
                img:[require('../assets/mg_gt_2_slide.png')]
            },
+            
 
         ])
         let slider_car_design = ref([

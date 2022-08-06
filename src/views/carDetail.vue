@@ -77,13 +77,13 @@
                         <p>Tingkat nilai lain memimpin Anda</p>
                         <div class="brochure-card">
                             <div class="brochure-item">
-                                <a href="">Test Drive new MG 5 GT</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Test Drive new MG 5 GT</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Download Brochure</a>
+                                <a href="../assets/gt_brosur.pdf" download>Download Brochure</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Request a Quote</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Request a Quote</a>
                             </div>
                         </div>
                          <div class="car-detail-content-2">
@@ -280,16 +280,16 @@
                         <p>Tingkat nilai lain memimpin Anda</p>
                         <div class="brochure-card">
                             <div class="brochure-item">
-                                <a href="">Test Drive new MG 5 GT</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Test Drive new MG 5 GT</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Download Brochure</a>
+                                <a href="../assets/zs_brosur.pdf" download>Download Brochure</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Request a Quote</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Request a Quote</a>
                             </div>
                         </div>
-                        <div class="price-card">
+                         <div class="price-card" v-if="option_active_car === 'gt'">
                             <div class="detail-price-card">
                                 <p>5 GT Activate</p>
                                 <p>Start From</p>
@@ -349,13 +349,13 @@
                         <p>Tingkat nilai lain memimpin Anda</p>
                         <div class="brochure-card">
                             <div class="brochure-item">
-                                <a href="">Test Drive new MG HS</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Test Drive new MG HS</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Download Brochure</a>
+                                <a href="../../public/files/hs_brosur.pdf" download>Download Brochure</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Request a Quote</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Request a Quote</a>
                             </div>
                         </div>
                          <div class="car-detail-content-2">
@@ -544,20 +544,22 @@
                         <!-- <p>Tingkat nilai lain memimpin Anda</p> -->
                         <div class="brochure-card">
                             <div class="brochure-item">
-                                <a href="">Test Drive new MG HS</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Test Drive new MG HS</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Download Brochure</a>
+                                <a location.href="../assets/hs_brosur.pdf" download>Download Brochure</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Request a Quote</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Request a Quote</a>
                             </div>
                         </div>
-                        <div class="price-card">
+                        <div class="price-card" v-if="option_active_car === 'hs'">
                             <div class="detail-price-card">
-                                <p>HS Activate</p>
+                                <p>HS LFC Edition</p>
                                 <p>Start From</p>
-                                <p>RP. 395.800.000</p>
+                                <p>RP. 519.800.000</p>
+                                <p>Warna Scarlet Red + Rp.5.000.000</p>
+                                
                             </div>
                             <div class="detail-price-card">
                                 <p>HS Ignite</p>
@@ -568,6 +570,7 @@
                                 <p>HS i-Smart</p>
                                 <p>Start From</p>
                                 <p>RP. 494.800.000</p>
+           
                             </div>
                         </div>     
                     </div>
@@ -611,13 +614,13 @@
                         <p>Tingkat nilai lain memimpin Anda</p>
                         <div class="brochure-card">
                             <div class="brochure-item">
-                                <a href="">Test Drive new MG ZS</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Test Drive new MG ZS</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Download Brochure</a>
+                                <a href="../assets/zs_brosur.pdf" target="_blank" download>Download Brochure</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Request a Quote</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Request a Quote</a>
                             </div>
                         </div>
                          <div class="car-detail-content-2">
@@ -807,13 +810,13 @@
                         <!-- <p>Tingkat nilai lain memimpin Anda</p> -->
                         <div class="brochure-card">
                             <div class="brochure-item">
-                                <a href="">Test Drive new MG ZS</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Test Drive new MG ZS</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Download Brochure</a>
+                                <a href="../assets/zs_brosur.pdf" download>Download Brochure</a>
                             </div>
                              <div class="brochure-item">
-                                <a href="">Request a Quote</a>
+                                <a href="https://wa.me/6283811111796/?text=Selamat Siang, Saya Ingin konsultasi MG Moris">Request a Quote</a>
                             </div>
                         </div>
                         <div class="price-card">
@@ -865,6 +868,9 @@ export default {
         let gt_active_color = ref('yellow')
         let hs_active_color = ref('red')
         let zs_active_color = ref('red')
+        let pdf_brochure = ref({
+            // item:require('../../public/files/gt_brosur.pdf')
+        })
         let homeSliderCar = ref([
           {
               img:[require('../assets/specification_gt/gt_spec_1.png')]
@@ -961,6 +967,11 @@ export default {
         }
 
 
+        const download_pdf=(id)=>{
+            if(id === 'hs'){
+                location.href="../assets/hs_brosur.pdf"
+            }
+        }
          const modalsMenuMobile=(response)=>{
             console.log(response.status)
                     modalsMenu.value = response.status
@@ -999,6 +1010,9 @@ export default {
             const id = route.params.car
             car_id.value = id
         })
+
+
+        
         return {
             homeSliderCar,
             modalsMenuMg,
@@ -1013,7 +1027,9 @@ export default {
             zs_active_color,
             hs_active_color,
             modalsMenuMobile,
-            closeModalMobile
+            closeModalMobile,
+            download_pdf,
+            pdf_brochure
         }
         
     },
