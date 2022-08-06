@@ -215,6 +215,7 @@ import 'vue3-carousel/dist/carousel.css';
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import {ref,watch} from 'vue'
 import footerCard from '../components/Footer/Footer.vue'
+
 export default {
     name:'homeView',
     components:{
@@ -229,6 +230,7 @@ export default {
         Pagination,
         // eslint-disable-next-line vue/no-unused-components
         Navigation,
+        
     },
     setup() {
 

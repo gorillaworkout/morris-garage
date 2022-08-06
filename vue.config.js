@@ -1,19 +1,20 @@
 const { defineConfig } = require('@vue/cli-service')
-// const path = require('path');
-
 module.exports = defineConfig({
   transpileDependencies: true,
-  configureWebpack: {
-    module: {
-      rules: [
-        {
-          test: /\.(csv|xlsx|xls|pdf)$/,
-          loader: 'file-loader',
-          options: {
-            name: `files/[name].[ext]`
-          }
-        }
-      ],
-     },
+  assetsDir:'public/files/gt_brosur.pdf',
+  output: {
+    filename: 'my-first-webpack.bundle.js',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif|pdf)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+    ],
   },
 })
