@@ -96,6 +96,26 @@
                         width:30% !important;
                     }
                 }
+                .price-card{
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    height:100% !important;
+                    .detail-price-card{
+                        width:100% !important;
+                        // justify-content: flex-start !important;;
+                        // align-items: flex-start !important;;
+                        p{
+                            width:auto !important;
+                            align-items: left !important;;
+                        }
+                        p:nth-child(1){
+                            font-size:30px !important;
+                        }
+                        p:nth-child(3){
+                            font-size:20px !important;
+                        }
+                    }
+                }
                 
             }
             .header-car-model{
