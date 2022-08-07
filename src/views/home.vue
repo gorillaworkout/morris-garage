@@ -182,7 +182,7 @@
                 <div class="title-card">
                     <p>Innovation</p>
                     <p>
-                        MG telah menjadi yang terdepan sejak awal kemunculannya di Morris Garages pada tahun 1924. Kini generasi baru dapat memilih mobil dengan inovasi dari merek ikonik ini. Diperbarui, dialiri listrik, diisi ulang, dan siap untuk masa depan.
+                        MG telah menjadi yang terdepan sejak awal kemunculannya di Morris Garages pada tahun 1924. Kini generasi baru dapat memilih mobil dengan inovasi dari merek ikonik ini.
                     </p>
                 </div>
                 <div class="box-innovation">
