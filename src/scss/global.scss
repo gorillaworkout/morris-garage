@@ -38,11 +38,56 @@
     }
 }  
 
+// @media only screen and (max-width:601px){
+//     .box-carousel-home{
+
+//         .box-car-model{
+
+//             .body-slider-car-model{
+
+//                 .box-img-option{
+//                     justify-content: space-between !important;
+//                     .small-card-option-car{
+//                         width:30% !important;
+//                     }
+//                 }
+//             }
+//         }
+//         .box-innovation-car{
+//             .title-card{
+//                 p:nth-child(2){
+//                     width:100% !important;
+//                 }
+//             }
+//         }
+//         .box-innovation{
+//             .card-innovation-1{
+//                 width:45% !important;
+//             }
+//             .card-innovation-2{
+//                 width:45% !important;
+//             }
+//             .card-innovation-3{
+//                 width:45% !important;
+//             }
+//             .card-innovation-4{
+//                 width:45% !important;
+//             }
+//         }
+//     }
+//     .top-footer-box{
+//         justify-content: space-between;
+//     }
+// }
+
 @media only screen and (max-width:601px){
+    .top-header-box{
+        padding:1rem !important;
+    }
     .box-carousel-home{
 
         .box-car-model{
-
+            padding:0px !important;
             .body-slider-car-model{
 
                 .box-img-option{
@@ -51,32 +96,301 @@
                         width:30% !important;
                     }
                 }
+                .price-card{
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    height:100% !important;
+                    .detail-price-card{
+                        width:100% !important;
+                        // justify-content: flex-start !important;;
+                        // align-items: flex-start !important;;
+                        p{
+                            width:auto !important;
+                            align-items: left !important;;
+                        }
+                        p:nth-child(1){
+                            font-size:30px !important;
+                        }
+                        p:nth-child(3){
+                            font-size:20px !important;
+                        }
+                    }
+                }
+                
+            }
+            .header-car-model{
+                margin-bottom:30px !important;
+                .header-left{
+                    width:70% !important;
+                    p:nth-child(3){
+                        font-size:10px !important;
+                    }
+                }
+                .header-right{
+                    width:30% !important;
+                    .button-seemore{
+                        width:100% !important;
+                        height:40px !important;
+                        a{
+                            font-size:14px !important;
+                        }
+                    }
+                }
             }
         }
         .box-innovation-car{
+            padding:0px !important;
             .title-card{
                 p:nth-child(2){
                     width:100% !important;
                 }
             }
+            .box-innovation{
+                .card-innovation-1{
+                    padding:10px !important;
+                    height:150px !important;
+                    width:45% !important;
+                    // justify-content: center !important;
+                    // align-items: center !important;
+                    p{
+                        font-size:20px !important;
+                    }
+                }
+                .card-innovation-2{
+                    padding:10px !important;
+                    height:150px !important;
+                    width:45% !important;
+                    // justify-content: center !important;
+                    // align-items: center !important;
+                    p{
+                        font-size:20px !important;
+                    }
+                }
+                .card-innovation-3{
+                    padding:10px !important;
+                    height:150px !important;
+                    width:45% !important;
+                    // justify-content: center !important;
+                    // align-items: center !important;
+                    p{
+                        font-size:20px !important;
+                    }
+                }
+                .card-innovation-4{
+                    padding:10px !important;
+                    height:150px !important;
+                    width:45% !important;
+                    // justify-content: center !important;
+                    // align-items: center !important;
+                    p{
+                        font-size:20px !important;
+                    }
+                }
+            }
         }
-        .box-innovation{
-            .card-innovation-1{
-                width:45% !important;
+        .top-footer-box{
+            padding:0px !important;
+            justify-content: space-between;
+            .card-icon-soc{
+                // min-width:50px;
+                .fa-phone{
+                    font-size:15px !important;
+                }
+                .fa-facebook-f{
+                    font-size:20px !important;
+                }
+                .fa-whatsapp {
+                    font-size:20px !important;
+                }
+                .fa-youtube {
+                    font-size:20px !important;
+                }
+                .fa-instagram {
+                    font-size:20px !important;
+                }
+                .fa-at {
+                    font-size:20px !important;
+                }
             }
-            .card-innovation-2{
-                width:45% !important;
+        }   
+    }
+
+    // car detail
+    .box-car-detail{
+        .slider-card{
+            padding-left:0px !important;
+            padding-right:0px!important;
+            padding-top:2rem;
+            padding-bottom:2rem;
+            .option-car{
+                .nav-tabs{
+                    justify-content: space-evenly;
+                }
             }
-            .card-innovation-3{
-                width:45% !important;
-            }
-            .card-innovation-4{
-                width:45% !important;
+            .tab-content{
+                .tab-pane{
+                    .box-tab-content{
+                        p:nth-child(2){
+                            font-size:16px !important;
+                        }
+                        .brochure-card{
+                            height:200px !important;          
+                            .brochure-item{
+                                width:100%;
+                                height:50px;
+                            }
+                        }
+                        .price-card{
+                            flex-wrap: wrap;
+                            flex-direction: column;
+                            height:100%;
+                            .detail-price-card{
+                                width:100%;
+                            }
+                        }
+                       
+                        .car-detail-content-2{
+                            height:100% !important;
+                        }
+                        .card-exterior-detail{
+                            p{
+                                width:100%;
+                            }
+                            .card-performance{
+                                flex-direction: column;
+                                justify-content: space-evenly;
+                                img{
+                                    height:auto !important;
+                                    width:70%;
+                                }
+                                .performance-detail{
+                                    width:100%;
+                                }
+                            }
+                        }
+                    }
+                    .box-design-content{
+                        .car-detail-content{
+                            height:auto;
+                            img{
+                                height:auto !important;
+                            }
+                        }
+                        .exterior-colour-box{
+                            height:auto !important;
+                            flex-direction: column;
+                            .detail-exterior-colour{
+                                width:100%;
+                            }
+                            .box-color-option{
+                                width:100%;
+                                height:150px;
+                                flex-wrap: wrap;
+                                .card-color{
+                                    width:30% !important;
+                                    height:80%;
+                                }
+                            }
+                        }
+                        .box-exterior-design{
+                            height:auto !important;
+                            margin-top:20px;
+                            .card-design-ext{
+                                flex-direction: column;
+                                .card-item-small-ext{
+                                    width:100%;
+                                }
+                            }
+                        }
+                    }
+                    .box-performance-content{
+                        .car-detail-content{
+                            height:100%;
+                            img{
+                                height:auto !important;
+                            }
+                        }
+                        .card-exterior-detail{
+                            .card-performance{
+                                flex-direction: column !important;
+                                justify-content: center;
+                                img{
+                                    height:auto;
+                                    width:70%;
+                                }
+                                .performance-detail{
+                                    padding:0px;
+                                    width:100%;
+                                    height:auto !important;
+                                    p:nth-child(2){
+                                        font-size:16px;
+                                    }
+                                }
+                            }
+                           
+                            
+                        }
+                    }
+                    .box-specification-content{
+
+                        margin-top:30px;
+                    }
+                }
             }
         }
     }
+
+    //profile page
+
+    .box-home-container{
+        .card-profile{
+            height:100%;
+            flex-direction: column;
+            padding:10px;
+            .box-card-left{
+                width:100%;
+                height:400px;
+            }
+            .box-card-right{
+                width:100%;
+                iframe{
+                    width:80% !important;
+                    margin-bottom:30px;
+                }
+                .card-wa{
+                    width:200px;
+                    height:50px
+                }
+            }
+        }
+
+    }
+
     .top-footer-box{
-        justify-content: space-between;
+        .card-icon-soc{
+            .fa-facebook-f{
+                font-size:20px
+            }
+            .fa-whatsapp{
+                font-size:20px
+            }
+            .fa-youtube{
+                font-size:20px
+            }
+            .fa-instagram{
+                font-size:20px
+            }
+            .fa-at{
+                font-size:20px
+            }
+
+        }
+    }
+
+    .modal{
+        .modal-dialog-centered{
+            align-items: flex-start !important;
+        }
     }
 }
 
